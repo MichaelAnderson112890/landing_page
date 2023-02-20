@@ -64,7 +64,7 @@ ol{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 16px;
+    padding: 32px;
 }
 
 .info {
@@ -84,4 +84,30 @@ ol{
     border-radius: 8px;
     width: 150px;
     height: 150px;
+}
+
+.quote {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 32px;
+}
+
+.quote_text {
+    max-width: 300px;
+    font-style: italic;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    color: #1F2937;
+}
+.quote_author {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    width: 300px;
+    font-weight: bold;
 }
