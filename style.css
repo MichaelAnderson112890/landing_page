@@ -46,8 +46,9 @@ ol{
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 16px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 0 16px;
+    border-style: solid;
+    
 }
 
 .image {
@@ -110,4 +111,30 @@ ol{
     text-align: right;
     width: 300px;
     font-weight: bold;
+}
+
+.signup_banner {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 16px 40px;
+    margin: 32px;
+    border-radius: 8px;
+}
+
+.signup_text h3,
+.signup_text p {
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
+}
+
+.signup_button {
+    background-color: transparent;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    border-radius: 8px;
+    padding: 0 8px;
+    border-style: solid;
 }
